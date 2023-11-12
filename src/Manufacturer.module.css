@@ -1,0 +1,47 @@
+/* .Form_div{
+  display: flex;
+  flex-direction: row;
+} */
+.List {
+   
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ec5990; /* Change the background color to pink */
+  }
+  
+
+  h2 {
+   
+    margin: 10px;
+  }
+  
+  /* Style the list */
+  ul {
+    width: 40%;
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style list items */
+  li {
+    margin-bottom: 10px;
+    border: 1px solid #fff; /* Change the border color to white */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white; /* Change the background color to white */
+  }
+  
+  /* Style product details */
+  li span {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  /* Style odd-numbered items with a background color */
+  li {
+    background-color: #ec5990; /* Change the background color of odd-numbered items to pink */
+  }
+  
